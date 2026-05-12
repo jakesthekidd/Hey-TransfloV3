@@ -907,7 +907,6 @@ export function VoiceAgent({ isOpen, onClose, tapPosition = { x: 195, y: 600 } }
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           className="fixed inset-0 z-[200] overflow-hidden"
-          style={{ height: '100dvh', width: '100dvw' }}
         >
           {/* Glass Overlay with Backdrop Blur - Shows underlying UI */}
           <motion.div
