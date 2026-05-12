@@ -206,7 +206,7 @@ export default function App() {
   };
 
   return (
-    <div className="bg-white content-stretch flex gap-[10px] items-stretch justify-center relative min-h-screen w-full">
+    <div className="bg-white content-stretch flex gap-[10px] items-start justify-center relative size-full">
       {/* Fleet Profile Menu */}
       <FleetProfileMenu 
         isOpen={isFleetMenuOpen} 
@@ -427,7 +427,7 @@ export default function App() {
             </div>
 
             {/* Scrollable Content Area - z-[1] */}
-            <div className="box-border content-stretch flex flex-col items-start mb-[-70px] pb-0 pt-[73px] px-0 relative flex-1 min-h-0 overflow-y-auto w-full z-[1]">
+            <div className="box-border content-stretch flex flex-col items-start mb-[-70px] pb-0 pt-[73px] px-0 relative shrink-0 w-full z-[1]">
               <TabSection className="bg-white h-[74px] relative shrink-0 w-full" title="Scan" icon="Scan"/>
               <TabSection className="bg-white h-[74px] relative shrink-0 w-full" title="Loads" icon="Loads"/>
               <TabSection className="bg-white h-[74px] relative shrink-0 w-full" title="Drivewyze" icon="Drivewyze"/>
@@ -439,7 +439,7 @@ export default function App() {
           </div>
 
           {/* Bottom Navigation */}
-          <div className="h-[117px] relative shrink-0 w-full" data-name="Bottom Navigation">
+          <div className="h-[117px] fixed bottom-0 left-0 right-0 z-[100]" data-name="Bottom Navigation">
             {/* Black Footer */}
             <div className="absolute bg-black bottom-0 left-0 right-0 top-[52.14%]"/>
             <p className="absolute font-['Roboto',_sans-serif] font-normal inset-[56.41%_76.15%_27.35%_2.31%] leading-[normal] text-[16px] text-nowrap text-white whitespace-pre">TESTFLEET</p>
