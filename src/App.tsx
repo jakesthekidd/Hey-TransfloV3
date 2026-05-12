@@ -284,7 +284,7 @@ export default function App() {
       </AnimatePresence>
 
       <div className="basis-0 content-stretch flex flex-col grow h-full items-center min-h-px min-w-px relative shrink-0">
-        <div className="basis-0 content-stretch flex flex-col gap-[10px] grow items-center min-h-px min-w-px overflow-clip relative shrink-0 w-full">
+        <div className="basis-0 content-stretch flex flex-col grow items-center min-h-px min-w-px overflow-clip relative shrink-0 w-full">
           <div className="basis-0 box-border content-stretch flex flex-col grow isolate items-center min-h-px min-w-px pb-[70px] pt-0 px-0 relative shrink-0 w-full">
             
             {/* Header Section with Dials - z-[2] */}
