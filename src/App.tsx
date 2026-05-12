@@ -501,6 +501,8 @@ export default function App() {
               </div>
             </div>
           </div>
+          {/* Safe-area extension so the black footer reaches the physical screen bottom on iOS */}
+          <div className="bg-black w-full shrink-0" style={{ height: 'env(safe-area-inset-bottom)' }} />
         </div>
       </div>
     </div>

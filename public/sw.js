@@ -1,5 +1,5 @@
 // Service Worker for Transflo Voice Agent PWA
-const CACHE_NAME = 'transflo-voice-agent-v4';
+const CACHE_NAME = 'transflo-voice-agent-v5';
 
 // Install event - cache essential files
 self.addEventListener('install', (event) => {

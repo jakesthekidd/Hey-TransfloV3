@@ -113,7 +113,8 @@
     font-variation-settings: var(--default-font-variation-settings, normal);
     -webkit-tap-highlight-color: transparent;
     height: 100%;
-    height: 100svh;
+    height: 100vh;
+    height: 100lvh;
     overflow: hidden;
     background-color: #2474bb;
   }
@@ -121,7 +122,8 @@
   body {
     line-height: inherit;
     height: 100%;
-    height: 100svh;
+    height: 100vh;
+    height: 100lvh;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -130,7 +132,8 @@
 
   #root {
     height: 100%;
-    height: 100svh;
+    height: 100vh;
+    height: 100lvh;
     width: 100%;
     overflow: hidden;
     background-color: #2474bb;
